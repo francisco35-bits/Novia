@@ -39,7 +39,7 @@ def main(page: ft.Page):
         "Sí", 
         on_click=mostrar_respuesta, 
         width=100,
-        icon=ft.Image(src="theduodynamic-on-twitter-el-negro-del-whatsapp-en-81427.jpeg", width=20, height=20)  # Cambia "tu_imagen.png" por el nombre de tu archivo
+        icon=ft.Image(src="assets/theduodynamic-on-twitter-el-negro-del-whatsapp-en-81427.jpeg", width=20, height=20)
     )
     btn_no = ft.ElevatedButton("No", width=100, on_hover=mover_boton_no)
 
