@@ -6,7 +6,6 @@ def main(page: ft.Page):
     page.window_width = 400
     page.window_height = 300
     page.window_resizable = False
-
     margen_inferior = 100
     margen_lateral = 120
     movimiento_minimo = 50
